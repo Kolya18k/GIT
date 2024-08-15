@@ -2,7 +2,7 @@ pipeline {
     agent {
         label 'OneS'
     }
-    enivironment {
+    environment {
         envString = 'true'
     }
     post {
